@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_21_085716) do
+ActiveRecord::Schema.define(version: 2021_03_21_143406) do
 
   create_table "adr_lists", force: :cascade do |t|
     t.string "Address"
-    t.integer "Phone"
+    t.string "Phone"
     t.string "Name"
     t.string "LastName"
     t.string "email"
