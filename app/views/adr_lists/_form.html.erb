@@ -4,14 +4,14 @@
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
   <div class="form-inputs">
-    <%= f.input :Address,label:"Gyvenamoji vieta" %>
-    <%= f.input :Phone ,label:"Telefono numeris" %>
+    <%= f.input :Address,label:"Gyvenamoji vieta"%>
+    <%= f.input :Phone ,label:"Telefono numeris", required: "+" %>
     <%= f.input :Name,label:"Jusu Vardas" %>
     <%= f.input :LastName, label:"Jusu Pavarde" %>
     <%= f.input :email, hint:"naudojamas elektroninis pastas" %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.button :submit, class:"btn btn-success" %>
   </div>
 <% end %>
