@@ -1,5 +1,7 @@
 # README
 
+if not working open terminal in directory and run: bundle exec rake webpacker:install
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
