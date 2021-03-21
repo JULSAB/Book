@@ -1,0 +1,2 @@
+class AdrList < ApplicationRecord
+end

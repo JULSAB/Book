@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @adr_list.Address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @adr_list.Phone %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @adr_list.Name %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @adr_list.LastName %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @adr_list.email %>
+</p>
+
+<%= link_to 'Edit', edit_adr_list_path(@adr_list) %> |
+<%= link_to 'Back', adr_lists_path %>
